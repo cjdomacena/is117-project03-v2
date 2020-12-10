@@ -5,6 +5,14 @@
   padding: 0;
 }
 
+.hist {
+  color: #EE1818;
+}
+
+.how {
+  color: #EEE318;
+}
+
 .container-xxl {
   max-width: 2000px;
 }
@@ -37,6 +45,15 @@ h3 {
 p,
 a {
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #EEE318;
 }
 
 .default-body {
@@ -221,7 +238,6 @@ a {
 }
 .hero-body .hero-content .featured .swiper-slide ul li:nth-child(1) {
   font-size: 13px;
-  color: yellow;
   padding-bottom: 0.5rem;
   width: fit-content;
 }
