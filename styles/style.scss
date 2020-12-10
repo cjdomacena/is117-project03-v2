@@ -36,12 +36,11 @@ $button: #EEE318;
     box-sizing: border-box;
 }
 
-html 
-{
+html {
     font-size: 16px;
-    @media screen and (max-width: $sm) 
-    {
-        font-size: 14px;    
+
+    @media screen and (max-width: $sm) {
+        font-size: 14px;
     }
 }
 
@@ -61,8 +60,7 @@ a {
     font-family: $roboto;
 }
 
-.default-body
-{
+.default-body {
     height: auto;
 }
 
@@ -80,14 +78,13 @@ a {
         color: white !important;
         font-weight: 500;
     }
- 
 
-    a:hover
-    {
+
+    a:hover {
         color: #EEE318 !important;
     }
-    .custom-active
-    {
+
+    .custom-active {
         color: #EEE318 !important;
     }
 
@@ -118,6 +115,7 @@ a {
         @media screen and (max-width: $lg) {
             display: none;
         }
+
         button {
             border-radius: 0 !important;
             border-color: transparent !important;
@@ -125,20 +123,20 @@ a {
             width: 150px;
             text-transform: uppercase;
             margin-left: 1rem;
-    
+
             & {
                 color: #000000 !important;
                 font-weight: 700 !important;
             }
-    
+
             &:hover {
                 background-color: #000000 !important;
                 color: $button !important;
-    
+
             }
-    
+
         }
-    
+
 
 
     }
@@ -177,17 +175,19 @@ a {
         z-index: 99;
 
         margin-top: 5rem;
+
         @media screen and (max-width: $md) {
             height: 90%;
             margin-top: 0;
         }
-        .hero-text 
-        {
+
+        .hero-text {
             height: 267px;
             color: white;
             max-width: 581px;
             height: 100%;
             margin: 0 auto;
+
             h1 {
                 font-size: 3.25rem;
                 line-height: 71px;
@@ -200,12 +200,12 @@ a {
             }
 
 
-            @media screen and (max-width: $sm) 
-            {
-     
+            @media screen and (max-width: $sm) {
+
                 padding: 0 1rem;
-             
+
             }
+
             button {
                 border-radius: 0 !important;
                 border-color: transparent !important;
@@ -213,48 +213,48 @@ a {
                 width: 150px;
                 text-transform: uppercase;
                 margin-top: 1rem;
-        
+
                 & {
                     color: #000000 !important;
                     font-weight: 700 !important;
                 }
-        
+
                 &:hover {
                     background-color: #000000 !important;
                     color: $button !important;
-        
+
                 }
-        
+
             }
         }
-        .featured
-        {
+
+        .featured {
             height: 235px;
             position: absolute;
             bottom: 0;
             z-index: 99;
-            width:100%;
+            width: 100%;
 
             background-color: rgba($color: #000000, $alpha: .41);
-            h4 
-            {
-               
+
+            h4 {
+
                 margin-top: 1rem;
                 color: white;
                 padding-bottom: 0;
                 margin-bottom: 0;
 
             }
+
             .swiper-container {
                 width: 100%;
                 height: 200px;
                 margin: 0;
-                
-              }
-           
-            .swiper-slide
-            {
-        
+
+            }
+
+            .swiper-slide {
+
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: -webkit-flex;
@@ -269,9 +269,8 @@ a {
                 align-items: center;
                 height: 200px;
                 color: white;
-                
-                h3
-                {
+
+                h3 {
                     font-size: 1.4rem;
                     padding-bottom: .5rem;
                     font-family: $roboto;
@@ -279,123 +278,120 @@ a {
                     height: 50px;
                     vertical-align: center;
                 }
-                ul li:nth-child(1)
-                {
+
+                ul li:nth-child(1) {
                     font-size: 13px;
-                    color: yellow;padding-bottom: .5rem;
+                    color: yellow;
+                    padding-bottom: .5rem;
                     width: fit-content;
                 }
-                ul li:nth-child(3)
-                {
+
+                ul li:nth-child(3) {
                     font-size: 1rem;
                     width: fit-content;
                 }
             }
-    
-            span 
-            {
+
+            span {
                 background-color: #EEE318;
                 margin-bottom: .5rem !important;
             }
-            ul 
-            {
+
+            ul {
                 width: 250px;
                 padding: 1rem;
                 background-color: rgba($color: #020513, $alpha: .55);
             }
         }
 
-        
+
     }
 
 }
 
 
-.main-card
-{
+.main-card {
     min-height: 500px;
 }
 
-.row 
-{
-    p 
-{
-    color: #C2C2C2;
-}
+.row {
+    p {
+        color: #C2C2C2;
+    }
+
     height: auto;
     margin: 0;
 
-    .history-content
-    {
+    .history-content {
         background-size: cover;
         background-position: center;
         display: flex;
         align-items: center;
         color: white;
-        @media screen and (max-width: $md) 
-        {
-      
+
+        @media screen and (max-width: $md) {
+
             justify-content: center;
-          
+
 
         }
-        .history-text
-        {
+
+        .history-text {
             max-width: 600px;
-       
+
             padding-left: 100px;
-            h1
-            {
+
+            h1 {
                 font-size: 51px;
                 line-height: 71px;
             }
-            p 
-            {
+
+            p {
                 font-size: 1rem;
                 line-height: 27px;
             }
-            @media screen and (max-width: $md) 
-            {
+
+            @media screen and (max-width: $md) {
                 padding: 0;
 
             }
+
             button {
                 border-radius: 0 !important;
                 border-color: transparent !important;
                 background-color: $button !important;
                 width: 150px;
                 text-transform: uppercase;
-        
+
                 & {
                     color: #000000 !important;
                     font-weight: 700 !important;
                 }
-        
+
                 &:hover {
                     background-color: #000000 !important;
                     color: $button !important;
-        
+
                 }
-        
+
             }
         }
     }
 
 
-    .history-cards
-    {
+    .history-cards {
         height: 371px;
-        a 
-        {
+
+        a {
             text-decoration: none;
             color: white;
         }
-        a:hover
-        {
+
+        a:hover {
             color: #EEE318;
         }
-        .test-img
-        {
+
+        .test-img {
             width: 100%;
             background-repeat: no-repeat;
             background-size: cover;
@@ -404,23 +400,22 @@ a {
             margin: 0 auto;
             display: flex;
             align-items: flex-end;
-            .text-overlay
-            {
+
+            .text-overlay {
                 width: 100%;
                 background: linear-gradient(69.39deg, rgba(0, 0, 0, 0.56) -12.22%, rgba(36, 36, 36, .5) 108.78%);
             }
-            .card-text
-            {
+
+            .card-text {
                 height: 40%;
                 color: white;
-                max-width: 500px;         // 
+                max-width: 500px; // 
                 margin: 1rem 0 2rem 2rem;
             }
         }
     }
 
-    .mini-card-img
-    {
+    .mini-card-img {
         height: 289px;
         width: 100%;
         background-repeat: no-repeat;
@@ -430,50 +425,49 @@ a {
         display: flex;
         align-items: flex-end;
     }
-    .text-overlay
-    {
+
+    .text-overlay {
         width: 100%;
         background: linear-gradient(69.39deg, rgba(0, 0, 0, 0.56) -12.22%, rgba(36, 36, 36, .5) 108.78%);
 
     }
-    .card-text
-    {
+
+    .card-text {
         max-width: 550px;
-        height:auto;
+        height: auto;
         margin-left: 2rem;
         padding-top: 1rem;
-        a 
-        {
+
+        a {
             text-decoration: none;
             color: white;
         }
-        a:hover
-        {
+
+        a:hover {
             color: #EEE318;
         }
-        
+
     }
-  
+
 }
 
-footer
-{
+footer {
     position: static;
     bottom: 0;
     height: auto;
-    margin-top: 1rem;
+
     background-color: #E0E0E0;
     text-align: center;
     color: black;
-    h4 
-    {
+
+    h4 {
         font-size: 1rem;
         color: black;
         margin: 0;
         padding: 0;
     }
-    ul 
-    {
+
+    ul {
         width: 150px;
         margin: 0 auto;
         display: flex;
@@ -481,8 +475,8 @@ footer
         justify-content: space-evenly;
         padding-bottom: .5rem;
     }
-    .footer
-    {
+
+    .footer {
         padding: 1rem 0;
         display: flex;
         height: 80px;
@@ -490,7 +484,72 @@ footer
         justify-content: space-evenly;
     }
 }
-pre 
-{
-    display: none;
+
+.about {
+    margin-top: 1rem;
+   
+    width: 100%;
+    background: linear-gradient(265.52deg, #ECEDEA -2.01%, rgba(254, 255, 252, 0.97) 99.87%);
+  
+    .col-12 
+    {
+        // height: 391px;
+        // background-color: #C2C2C2;
+       padding: 2rem 0;
+    }
+    .about-img-container
+    {
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        @media screen and (max-width: $md) 
+        {
+         
+            padding-top: 3rem;
+        }
+    }
+    .about-img
+    {
+        height: 229px;
+        width: 289px;
+        background-image: url(../../img/about-img.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .about-text-container
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .about-text-container,.about-img-container
+    {
+        @media screen and (max-width: $md) 
+        {
+         justify-content: center;   
+         padding: 1rem 1rem;
+        }
+    }
+    .about-text
+    {
+        height: 229px;
+        width: 450px;
+        padding-left: 5rem;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @media screen and (max-width: $md) 
+        {
+            height: auto;  
+            padding-left: 0;
+        }
+        p   
+        {
+            color: black;
+            line-height: 27px;
+        }
+    }
 }

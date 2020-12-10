@@ -356,7 +356,6 @@ footer {
   position: static;
   bottom: 0;
   height: auto;
-  margin-top: 1rem;
   background-color: #E0E0E0;
   text-align: center;
   color: black;
@@ -383,6 +382,59 @@ footer .footer {
   justify-content: space-evenly;
 }
 
-pre {
-  display: none;
+.about {
+  margin-top: 1rem;
+  width: 100%;
+  background: linear-gradient(265.52deg, #ECEDEA -2.01%, rgba(254, 255, 252, 0.97) 99.87%);
+}
+.about .col-12 {
+  padding: 2rem 0;
+}
+.about .about-img-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 720px) {
+  .about .about-img-container {
+    padding-top: 3rem;
+  }
+}
+.about .about-img {
+  height: 229px;
+  width: 289px;
+  background-image: url(../../img/about-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about .about-text-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (max-width: 720px) {
+  .about .about-text-container, .about .about-img-container {
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+}
+.about .about-text {
+  height: 229px;
+  width: 450px;
+  padding-left: 5rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 720px) {
+  .about .about-text {
+    height: auto;
+    padding-left: 0;
+  }
+}
+.about .about-text p {
+  color: black;
+  line-height: 27px;
 }
