@@ -61,7 +61,10 @@ a {
     font-family: $roboto;
 }
 
-
+.default-body
+{
+    height: auto;
+}
 
 .navbar {
     margin: 1rem 1rem;
@@ -458,7 +461,7 @@ footer
     position: static;
     bottom: 0;
     height: auto;
-    margin-top: 5rem;
+    margin-top: 1rem;
     background-color: #E0E0E0;
     text-align: center;
     color: black;
@@ -486,4 +489,8 @@ footer
         flex-direction: column;
         justify-content: space-evenly;
     }
+}
+pre 
+{
+    display: none;
 }
