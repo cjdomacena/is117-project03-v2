@@ -663,7 +663,7 @@ footer {
 
 .article-body 
 {
-    padding-top: 2rem;
+    padding: 1rem 0;
     max-width:70ch;
     margin: 0 auto;
     min-height: auto;
@@ -693,18 +693,23 @@ footer {
 .article-image-lg
 {
     height: auto;
-    width: 100%;
+    width: 50%;
     margin-bottom: 2rem;
+
+    // max-height: 450px;
+    margin: 0 auto;
+    @media screen and (max-width: 1000px)
+     {
+        width: 100%;    
+    }
     .img-box-lg
     {
         width: 100%;
-        min-height: 450px;
-        background-color: #E0E0E0;
-        margin: 1rem 0;
+        height: 100%;
     }
 }
 
-.testing 
+.article-read-next
 {
 
     .article-learn-more
@@ -723,9 +728,14 @@ footer {
     ul 
     {
         background-color: rgba($color: #292828, $alpha: .23);
-        padding: 1rem;
-        max-width: 230px;
-        height: fit-content;
+        // padding: 1rem;
+        padding-left: 1rem;
+        width: 250px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
     }
     h4,ul 
     {
