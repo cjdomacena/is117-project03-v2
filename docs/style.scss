@@ -228,7 +228,20 @@ nav {
         /* Note: backdrop-filter has minimal browser support */
 
         border-radius: 15px 15px 0 0;
-
+        color: #484848;
+        ol 
+        {
+            font-family: 'Raleway',sans-serif;
+            font-size: 1rem;
+            li
+            {
+                line-height: 33px;
+            }
+            b 
+            {
+                color: #484848;
+            }
+        }
         .col-12 {
             padding: 0;
         }
@@ -246,7 +259,7 @@ nav {
                     padding-left: 1rem;
                 }
             }
-
+          
             ul li:nth-child(1) {
                 font-size: 1rem;
                 font-family: $roboto;
@@ -262,7 +275,7 @@ nav {
                     font-size: 2.5625rem;
                     margin: 0;
                     padding: .5rem 0;
-                    color: #484848;
+                    color: #2b2a2a;
                     font-family: $roboto;
                 }
             }

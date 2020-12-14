@@ -155,6 +155,17 @@ nav {
   backdrop-filter: blur(42px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 15px 15px 0 0;
+  color: #484848;
+}
+.article-container .article-body ol {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+.article-container .article-body ol li {
+  line-height: 33px;
+}
+.article-container .article-body ol b {
+  color: #484848;
 }
 .article-container .article-body .col-12 {
   padding: 0;
@@ -182,7 +193,7 @@ nav {
   font-size: 2.5625rem;
   margin: 0;
   padding: 0.5rem 0;
-  color: #484848;
+  color: #2b2a2a;
   font-family: "Roboto Slab", serif;
 }
 .article-container .article-body .article-header .article-author-info {

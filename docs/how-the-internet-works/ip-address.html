@@ -11,7 +11,7 @@
             integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="../dist/style.css">
 
-        <title>People</title>
+        <title>IP Address</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="../../fav/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../../fav/favicon-32x32.png">
@@ -23,7 +23,7 @@
     <body class="article-body container-fluid">
         <div class="container-xxl test">
             <div class="nav-container" id="change-bg">
-                <header id="header" class="sticky-top">
+                <header id="header">
                     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
                         <div class="logo">
                             <a class="navbar-brand" href="#"><svg width="54" height="51" viewBox="0 0 54 51" fill="none"
@@ -87,7 +87,7 @@
                                 <ul class="list-unstyled">
                                     <li class="how">How the Internet Works</li>
                                     <li>
-                                        <h1>People</h1>
+                                        <h1>Internet Protocol (IP) Address </h1>
                                     </li>
                                     <li>
                                         <div class="article-author-info">
@@ -107,9 +107,10 @@
                         <div class="col-12 mt-3">
                             <div class="sub-heading-container">
                                 <div class="sub-heading-text">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad et
-                                        quisquam quod laboriosam, beatae nisi tempore delectus optio voluptatibus
-                                        nam sit vero asperiores.
+                                    <p>An IP address provides an identity to a networked device on the internet. Similar
+                                        to a home or business address that supplies a specific physical location with an
+                                        identifiable address, devices on a network are differentiated from one another
+                                        through IP addresses
                                     </p>
                                 </div>
                             </div>
@@ -118,7 +119,7 @@
                         <!-- Insert Image here -->
                         <div class="col-12 mt-3">
                             <div class="article-hero-img">
-                                <img src="img/people.jpg" alt="">
+                                <img src="img/ip-hero.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-12 mt-5 mb-5">
@@ -142,11 +143,8 @@
 
                                 </span>
                                 <p>
-                                    Today, the internet is part of our daily lives. It became our routine to check our
-                                    social media, watch videos online. As humans, we seek out control over something to
-                                    feel important and this is what social media and other platforms give us. But how
-                                    did these platforms come about in giving us this freedom to be ourselves, and
-                                    communicate with our peers?
+                                    Since IP addresses are unique identifiers, it gives computers the ability to send
+                                    and receive data to and from certain computers within a given network.
                                 </p>
                             </blockquote>
 
@@ -159,31 +157,63 @@
                         <div class="col-lg-7 col-12">
 
                             <div class="article-content">
-                                <h2>Media Revolution</h2>
+                                <p>Every time you connect to the Internet, your Internet service provider assigns your
+                                    computer a unique numerical address. This unique address identifies your computer on
+                                    the network so that you can request and receive information. The address is known as
+                                    an Internet Protocol (IP) address. When you initiate a request, such as clicking on
+                                    a link in your Web browser, the request travels across the Internet in the form of
+                                    data packets stamped with your IP address. This IP address helps to identify you
+                                    through the network when you request information to the internet.</p>
+                                <h2>There are two types of Internet Protocol: IPv4 and IPv6.</h2>
+                                <h3>IPv4</h3>
                                 <p>
-                                    In the mid-90s, the only way to consume music is by buying a record in a record
-                                    store with the intent of listening to your favorite song. However, if you end up not
-                                    liking the other songs part of that album, you do not have a choice to get a refund.
-                                    But, during the media revolution, some tech geniuses found a way to revolutionize
-                                    how we consume music.
+                                    Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number.
                                 </p>
+                                <h3>IPv6</h3>
+                                <p>
+                                    Internet Protocol version 6 (IPv6) defines an IP address as a 128-bit number.
+                                </p>
+                                <p>
+                                    Due to the structure of networks, small IP packets work more efficiently than large
+                                    packets. A single, large IP packet would not only take longer to transmit, but high
+                                    traffic conditions would quickly clog the network. Sending smaller packets has the
+                                    advantage of moving more traffic through available routes at a faster pace with less
+                                    chance of creating bottlenecks. Consequently, each IP packet travels the Internet
+                                    independently, guided by routers that read the destination address and forward the
+                                    packet along the fastest available route. At the destination address the packets are
+                                    reassembled. This is where TCP/IP comes into play.
+                                </p>
+                                <p>
+                                    Consequently, each IP packet travels the Internet independently, guided by routers
+                                    that read the destination address and forward the packet along the fastest available
+                                    route. At the destination address the packets are reassembled. This is where TCP/IP
+                                    comes into play.
+                                </p>
+                                <h2>Transmission Control/Internet Protocol (TCP/IP)</h2>
+                                <p>TCP/IP governs communication among all computers on the network and dictates how
+                                    information should be packaged and turned into packets. This allows us to easily
+                                    interconnect different networks and send and receive information.
+
+                                    The Transmission Control Protocol is responsible for ensuring the reliable
+                                    transmission of data across Internet-connected networks. TCP checks packets for
+                                    errors and submits requests for re-transmissions if any are found.</p>
+                                <h2>Four total layers of TCP/IP protocol:</h2>
+                                <ol class="list-unstyled">
+                                    <li><b>Network Access Layer</b> - This Layer is concerned with building packets.
+                                    </li>
+                                    <li><b>Internet Layer</b>- This layer uses IP (Internet Protocol) to describe how
+                                        packets
+                                        are to be delivered.</li>
+                                    <li><b>Transport Layer</b> - This layer utilizes UDP (User Datagram Protocol) and
+                                        TCP
+                                        (Transmission Control Protocol) to ensure the proper transmission of data.</li>
+                                    <li><b>Application Layer</b> - This layer deals with application network processes.
+                                        These
+                                        processes include FTP (File Transfer Protocol), HTTP (Hypertext Transfer
+                                        Protocol), and SMTP (Simple Mail Transfer Protocol).</li>
+                                </ol>
                             </div>
-                            <div class="article-content">
-                                <h1>1999</h1>
-                                <h2>Napster</h2>
-                                <p>
-                                    Shawn Fanning, the creator of Napster, had an idea to have a peer to peer system in
-                                    downloading music because scouring the internet just to find one music file is too
-                                    much work, but instead let users’ computers communicate with other computers to
-                                    share their music files. And within a week thousands of users downloaded the Napster
-                                    application for free.
-                                </p>
-                                <p>
-                                    Multiple concerns arise for Napster. Lawyers inside the music industry are
-                                    increasingly aware of Napster and its implications that can harm the intellectual
-                                    property of artists’ music being distributed on Napster.
-                                </p>
-                            </div>
+
                         </div>
                         <div class="col-lg-5 col-12">
                             <div class="related-articles-main-container">
@@ -191,29 +221,32 @@
                                     <h3>Related Articles</h3>
                                     <div class="related-article-cards">
                                         <div class="related-article-card">
-                                            <div class="related-article-img" style="background-image: url(img/invention-hero.jpeg);">
-                                                
+                                            <div class="related-article-img"
+                                                style="background-image: url(img/icann.jpg);">
+
                                             </div>
                                             <div class="related-article-info">
-                                                <a href="invention.html">Invention of the Internet</a>
+                                                <a href="icann.html">ICANN</a>
                                                 <p class="mb-0 pb-0">Dec 2020</p>
                                             </div>
                                         </div>
                                         <div class="related-article-card">
-                                            <div class="related-article-img" style="background-image: url(img/internet-search-hero.jpg);">
-                                               
+                                            <div class="related-article-img"
+                                                style="background-image: url(img/dns-hero.jpg);">
+
                                             </div>
                                             <div class="related-article-info">
-                                                <a href="internet-search.html">Internet Search</a>
+                                                <a href="dns.html">Domain Name System (DNS)</a>
                                                 <p class="mb-0 pb-0">Dec 2020</p>
                                             </div>
                                         </div>
                                         <div class="related-article-card">
-                                            <div class="related-article-img" style="background-image: url(img/dot-com-hero.jpg);">
-                                               
+                                            <div class="related-article-img"
+                                                style="background-image: url(img/http-hero.jpg);">
+
                                             </div>
                                             <div class="related-article-info">
-                                                <a href="dot-com-bubble.html">Dot Com Bubble</a>
+                                                <a href="http.html">HTTP and HTTPS</a>
                                                 <p class="mb-0 pb-0">Dec 2020</p>
                                             </div>
                                         </div>
@@ -223,12 +256,12 @@
                                 <div class="read-next mt-5">
                                     <div class="read-next-contents">
                                         <h3>Read Next</h3>
-                                        <a href="">Browser Wars</a>
+                                        <a href="w3c.html">World Wide Web Consortium (W3C)</a>
                                         <p>
-                                            In today’s modern world, browsers like google chrome, firefox, and
-                                            internet explorer are the most popular internet browsers there are.
-                                            These browsers allow us to connect, browse and communicate with the
-                                            internet.
+                                            W3C standards define an Open Web Platform for application development that
+                                            has the unprecedented potential to enable developers to build rich
+                                            interactive experiences, powered by vast data stores, that are available on
+                                            any device.
                                         </p>
                                     </div>
 
@@ -238,97 +271,46 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-5">
-                        <div class="col-lg-7 col-12">
 
-                            <div class="article-content">
-                                <h1>2000</h1>
-                                <p>
-                                    One famous drummer of the band Metallica, Lars Ulrich, confronted and went into
-                                    Napster’s office with two lawyers to confront and ask Napster to ban users who
-                                    distributed Metallica’s music within their application. However, due to this event,
-                                    Napster just became much more popular with the public.
-                                </p>
-                                <h1>2001</h1>
-                                <p>
-                                    During a long fight against a lawsuit that is filed against Napster violating the
-                                    copyright law, Napster lost the fight. But this event will fuel the rise of
-                                    revolution of what Napster was essentially about, giving people the power over
-                                    corporations.
-                                </p>
-                                <h1>2004</h1>
-                                <p>
-                                    When YouTube was founded in 2004 to offer service to the public that the public can
-                                    share, view, create, content on their website. Youtube revolutionized the
-                                    user-created content that echoed what Napster was essentially about: giving people
-                                    the power to distribute their content. Because of companies like Youtube and other
-                                    social media companies, it ushered in the era of what is called Web 2.0
-                                </p>
-                                <h2>Web 2.0</h2>
-                                <p>
-                                    Web 2.0 is all about having the community be able to contribute and relate to the
-                                    content that is being published on the web. Like Youtube or twitter, most of their
-                                    content is created by the user. What made web 2.0 more apparent on the internet is
-                                    the rise of social media. In the early 2000s websites like Friendster, MySpace, and
-                                    Craigslist were some companies that offered users control over their content.
-                                </p>
-                                <h2>Facebook</h2>
-                                <p>
-                                    Mark Zuckerberg, Facebook’s founder, had the ambition to create Facebook to be a
-                                    tool to help communicate with people all over the world. And after a few years,
-                                    almost everyone in the world is connected through Facebook.
-                                </p>
-                                <p>
-                                    Through Napster and other companies that revolutionized the way we use the web and
-                                    its contribution to the society that we live in now, it’s undeniable that the power
-                                    is in our hands. However, today, it can be hard to say that the power is in our
-                                    hands because of all the information that these companies have on us.
-                                </p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                
 
 
 
                 </div>
                 <div class="container article-read-next mt-5 mb-3">
-                    <h4>Learn How the Internet works</h4>
+                    <h4>Learn the History of the Internet</h4>
                     <div class="article-learn-more">
                         <ul class="list-unstyled">
-                            <li class="how">How the Internet Works</li>
+                            <li>Article</li>
                             <li>
-                                <a href="">
-                                    <h3>Domain Name System (DNS)</h3>
+                                <a href="../history-of-the-internet/invention.html">
+                                    <h3>Invention of the Internet</h3>
                                 </a>
                             </li>
                             <li>5 min read · Dec 2020</li>
                         </ul>
                         <ul class="list-unstyled">
-                            <li class="how">How the Internet Works</li>
+                            <li>Article</li>
                             <li>
-                                <a href="">
-                                    <h3>World Wide Web Consortium</h3>
+                                <a href="../history-of-the-internet/browser-wars.html">
+                                    <h3>Browser Wars</h3>
                                 </a>
                             </li>
                             <li>5 min read · Dec 2020</li>
                         </ul>
                         <ul class="list-unstyled">
-                            <li class="how">How the Internet Works</li>
+                            <li>Article</li>
                             <li>
-                                <a href="">
-                                    <h3>HTTP and HTTPS</h3>
+                                <a href="../history-of-the-internet/internet-search.html">
+                                    <h3>Internet Search</h3>
                                 </a>
                             </li>
                             <li>5 min read · Dec 2020</li>
                         </ul>
                         <ul class="list-unstyled">
-                            <li class="how">How the Internet Works</li>
+                            <li>Article</li>
                             <li>
-                                <a href="">
-                                    <h3>ICANN</h3>
+                                <a href="../history-of-the-internet/people.html">
+                                    <h3>People</h3>
                                 </a>
                             </li>
                             <li>5 min read · Dec 2020</li>
