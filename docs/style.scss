@@ -35,6 +35,17 @@ $custom-body: #020513;
 
 $button: #EEE318;
 
+.hist
+{
+    color: #EE1818;
+    font-weight: 700;
+}
+
+.how 
+{
+    color: #EEE318;
+    font-weight: 700;
+}
 
 
 * {
@@ -224,7 +235,7 @@ nav {
 
         .article-header {
 
-            max-width: 550px;
+            max-width: 650px;
 
             margin: 0 auto;
             height: auto;
@@ -239,8 +250,8 @@ nav {
             ul li:nth-child(1) {
                 font-size: 1rem;
                 font-family: $roboto;
-                color: #EEE318;
-                font-weight: 500;
+                // color: #EEE318;
+                font-weight: 700;
             }
 
             ul li:nth-child(2) {
@@ -631,6 +642,8 @@ footer {
     li:nth-child(1)
     {
        display: none;
+        font-weight: 500;
+        color: #484848;
     }
     a:hover 
     {
@@ -639,6 +652,7 @@ footer {
     h3  
     {
         font-size: 1.25rem;
+        max-width: 180px;
     }
     h4,
     ul {
